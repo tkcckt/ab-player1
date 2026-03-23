@@ -7,22 +7,22 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="player-wrap">
-    <div class="player">
-      <button id="playPauseBtn" class="play-btn" aria-label="Play or pause">▶</button>
+<div class="player">
+  <div class="top-row">
+    <button id="playPauseBtn" class="play-btn" aria-label="Play or pause">▶</button>
 
-      <div class="toggle-wrap">
-        <button id="beforeBtn" class="toggle-btn active">Before</button>
-        <button id="afterBtn" class="toggle-btn">After</button>
-      </div>
-
-      <div class="progress-wrap">
-        <span id="currentTime">0:00</span>
-        <input id="seekBar" type="range" min="0" max="100" value="0" />
-        <span id="duration">0:00</span>
-      </div>
+    <div class="toggle-wrap">
+      <button id="beforeBtn" class="toggle-btn active">Before</button>
+      <button id="afterBtn" class="toggle-btn">After</button>
     </div>
   </div>
+
+  <div class="progress-wrap">
+    <span id="currentTime">0:00</span>
+    <input id="seekBar" type="range" min="0" max="100" value="0" />
+    <span id="duration">0:00</span>
+  </div>
+</div>
 
   <script src="script.js"></script>
 </body>
