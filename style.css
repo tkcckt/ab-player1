@@ -16,11 +16,10 @@ body {
   width: 100%;
   max-width: 720px;
   background: #ffffff;
-  border: 1px solid #ebebeb;
+  border: 2px solid #ebebeb;
   border-radius: 18px;
   padding: 28px;
   box-sizing: border-box;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.04);
 }
 
 .top-row {
